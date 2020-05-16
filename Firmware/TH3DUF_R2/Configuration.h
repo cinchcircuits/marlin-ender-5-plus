@@ -932,7 +932,7 @@
 //#define AC_BED
 
 // Stock bed max is 120C for this firmware. Enable this to allow temps up to 150C. Your bed must support this temp for it to achieve the higher temperatures.
-//#define BED_HIGHTEMP
+#define BED_HIGHTEMP
 
 // MISC --------------------------------------------
 
