@@ -732,9 +732,9 @@
 //#define MKS_PRINTER
 
 // Build Area Size Settings
-#define MKS_X_SIZE 300
-#define MKS_Y_SIZE 300
-#define MKS_Z_SIZE 300
+#define MKS_X_SIZE 350
+#define MKS_Y_SIZE 350
+#define MKS_Z_SIZE 450
 
 // Endstop Logic Settings
 #define MKS_X_ENDSTOP 0
@@ -748,7 +748,7 @@
 // Steps per MM Settings
 #define MKS_X_STEPS 80
 #define MKS_Y_STEPS 80
-#define MKS_Z_STEPS 400
+#define MKS_Z_STEPS 912
 #define MKS_E0_STEPS 95
 #define MKS_E1_STEPS 95
 
@@ -762,8 +762,8 @@
 // Stepper Driver Settings
 #define MKS_X_DRIVER TMC2208_STANDALONE
 #define MKS_Y_DRIVER TMC2208_STANDALONE
-#define MKS_Z_DRIVER A4988
-#define MKS_E0_DRIVER A4988
+#define MKS_Z_DRIVER TMC2208_STANDALONE
+#define MKS_E0_DRIVER TMC2208_STANDALONE
 #define MKS_E1_DRIVER A4988
 
 // Thermistor Settings (uses standard Marlin Thermistor numbers)

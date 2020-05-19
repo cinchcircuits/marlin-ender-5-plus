@@ -61,4 +61,4 @@
 // If you are using a BL Touch but with a different mount uncomment the below line and the above CUSTOM_PROBE then enter the offsets below.
 #define ENDER5_PLUS_BLTOUCH
 
-#endif // CONFIGURATION_H
+  #endif // CONFIGURATION_H
